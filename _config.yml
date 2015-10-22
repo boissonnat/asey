@@ -1,0 +1,15 @@
+# Permalinks
+permalink:           /:categories/:title
+relative_permalinks: true
+
+# Setup
+baseurl:             ""
+title:               ASEY
+tagline:             Action Solidarité Enfants du Yatenga
+url:                 http://www.asey.org
+markdown:            kramdown
+
+# Assets
+sass:
+  sass_dir: _scss
+  style: compressed
