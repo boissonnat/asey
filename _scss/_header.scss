@@ -1,0 +1,10 @@
+.navbar-light {
+  border-bottom: solid 1px $gray;
+  border-radius: 0px;
+}
+.navbar-brand {
+  .navbar-title {
+    padding-top: $line-height;
+    padding-left: $line-height;
+  }
+}

@@ -3,4 +3,18 @@
 ---
 
 // Vendors
-@import 'vendor/bootstrap';
+@import "vendor/bootstrap-v4";
+@import "vendor/animate";
+
+// Specifics shared things
+@import "variables";
+
+// utils
+@import "global";
+@import "typographie";
+
+// Layout
+@import "header";
+
+// Page specifics
+@import "index";

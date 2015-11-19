@@ -1,0 +1,47 @@
+#intro {
+  background-image: url("/images/home.png");
+  height: 60%;
+  h3 {
+    font-size: 4rem;
+    font-weight: 100;
+    padding-top: 20%;
+    padding-right: $line-height;
+    color: $gray-lighter;
+  }
+}
+
+#keys {
+  margin-top: $line-height * 2;
+  margin-bottom: $line-height * 2;
+  text-align: center;
+  .key {
+    padding: $line-height;
+    .big-img {
+      font-size: 4rem;
+    }
+  }
+}
+
+#google_map {
+  height: 450px;
+  border: solid 1px $gray-light;
+  border-radius: 4px;
+  box-shadow: 3px 3px 12px $gray-light;
+  margin-bottom: $line-height * 2;
+}
+
+#children {
+  margin-top: $line-height * 2;
+  margin-bottom: $line-height * 2;
+  .card-group {
+    margin: 0;
+  }
+  .legend {
+    margin-top: $line-height * 2;
+    margin-bottom: $line-height * 2;
+  }
+}
+
+#actions {
+  margin-top: $line-height * 2;
+}

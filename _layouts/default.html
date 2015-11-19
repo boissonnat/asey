@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  {% include head.html %}
-  <body>
-    <div class="container">
+{% include head.html %}
 
-      {% include header.html %}
+<body>
 
-      {{content}}
+  {% include header.html %}
+
+  {{ content }}
+
+  {% include footer.html %}
 
 
 
-    </div>
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcgc-LZiCWcY4dyiddUHInUbnWHJaMh6U&callback=initMap">
+  </script>
+  <script src="/js/scrollSmooth.js"></script>
+  <script src="/js/maps.js"></script>
 
-    {% include footer.html %}
-  </body>
+</body>
 </html>
